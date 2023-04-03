@@ -6,6 +6,10 @@ const mainController = {
 
   form: (req, res) => {
     res.render('formulaire_creation');
+  },
+
+  question: (req, res) => {
+    res.render('affichage_question');
   }
 }
 
