@@ -4,8 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Création de quizz</title> 
-    <link rel="stylesheet" href="../../public/css/formulaire_creation.css">
-    <script src="../../public/js/formulaireCreation.js"></script>
+    <link rel="stylesheet" href="css/formulaire_creation.css">
+   
   </head>
   <body>
     
@@ -14,35 +14,38 @@
         <nav>
           <ul>
             <li><a href="/">Accueil</a></li>
-            <li><a href="/create-question-form">Créer un formulaire</a></li>
+            <li><a href="/formulaire-creation-question">Créer un formulaire</a></li>
           </ul>
         </nav>
     </header>
 
     <main>
+
       <h1>Formulaire de creation</h1>
 
-      <form action="/create" method="get">
-        <label for="title">Question :</label>
-        <input type="text" id="title" name="title"><br>
+      <form action="/create" method="post">
+        <label for="enonce">Question :</label>
+        <input type="text" id="enonce" name="enonce"><br>
   
-        <label for="title">Réponse 1 :</label>
-        <input type="text" id="title" name="title"><br>
+        <label for="reponse1">Réponse 1 :</label>
+        <input type="text" id="reponse1" name="reponse1"><br>
 
-        <label for="title">Réponse 2 :</label>
-        <input type="text" id="title" name="title"><br>
-  
-        <label for="rightAnswer">Bonne réponse :</label>
-        <select id="rightAnswer" name="rightAnswer">
+        <label for="reponse2">Réponse 2 :</label>
+        <input type="text" id="reponse2" name="reponse2"><br>
+
+        <label for="bonneReponse">Bonne réponse :</label>
+        <select id="bonneReponse" name="bonneReponse">
           <option value="1">1</option>
           <option value="2">2</option>
         </select><br>
-  
-        <input type="submit" value="Créer">
+
+        <button id="submitButton" type="submit">créer</button>
+
       </form>
 
     </main>
 
+    <script type="application/x-javascript" src="js/formulaireCreation.js"></script>
     <footer>
       <h2>footer</h2>
     </footer>

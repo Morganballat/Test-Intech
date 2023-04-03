@@ -1,9 +1,9 @@
 const buttonLeft = document.querySelector('#validatorButtonLeft')
 const buttonRight = document.querySelector('#validatorButtonRight')
-const question = document.querySelector('#question')
+const answer = document.querySelector('#answer')
 
 buttonLeft.addEventListener('click', () => {
-  if (buttonLeft.value === question.value) {
+  if (buttonLeft.value === answer.value) {
     buttonLeft.style.background = 'green'
   } else {
     buttonLeft.style.background = 'red'
@@ -11,9 +11,9 @@ buttonLeft.addEventListener('click', () => {
 })
 
 buttonRight.addEventListener('click', () => {
-  if (buttonLeft.value === question.value) {
+  if (buttonRight.value === answer.value) {
     buttonRight.style.background = 'green'
   } else {
-    buttonLeft.style.background = 'red'
+    buttonRight.style.background = 'red'
   }
 })
