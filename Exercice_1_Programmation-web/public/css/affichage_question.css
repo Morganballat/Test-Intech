@@ -1,0 +1,33 @@
+.question-container {
+  width: 50rem;
+  height: 15rem;
+  margin: auto;
+  background-color: white;
+  border: 0.12rem solid darkblue;
+  
+}
+
+.answer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.answer-btn {
+  width: 20rem;
+  height: 5rem;
+  background: linear-gradient(#0000, 5%, #004a87);
+  border: none;
+  border-radius: 0.7rem;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.question-title {
+  padding: 1.5rem;
+  width: 35rem;
+  margin: auto;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}

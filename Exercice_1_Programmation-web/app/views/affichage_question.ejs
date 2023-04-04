@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wilkommen</title>
-    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/affichage_question.css">
   </head>
   <body>
@@ -25,18 +26,20 @@
       <% let answer1 = 1 %>
       <% let answer2 = 2 %>
 
-      <h1>Exemple d'affichage question</h1>
-      <div>
-         <h3>Quelle est la distance entre la terre et la lune ?</h3>
-         <button id="validatorButtonLeft" value=<%=answer1%>>entre 1.8 et 2.3 millions de km</button>
-         <button id="validatorButtonRight" value=<%=answer2%>>entre 380000 et 420000 millions de km</button>
+      <h2>Exemple d'affichage question</h2>
+      <div class="question-container">
+         <h3 class="question-title">Quelle est la distance entre la terre et la lune ?</h3>
+         <div class="answer-container">
+           <button id="validatorButtonLeft" class="answer-btn" value=<%=answer1%>>entre 1.8 et 2.3 millions de km</button>
+           <button id="validatorButtonRight" class="answer-btn" value=<%=answer2%>>entre 380000 et 420000 millions de km</button>
+         </div>
       </div>
 
       <input id="answer" type="hidden" value=<%=rightAnswer%>>
      
     </main>
     <script type="application/x-javascript" src="js/affichageQuestion.js"></script>
-
+    <footer>
       <h2>footer</h2>
     </footer>
     

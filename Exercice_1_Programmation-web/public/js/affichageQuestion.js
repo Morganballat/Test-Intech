@@ -3,17 +3,19 @@ const buttonRight = document.querySelector('#validatorButtonRight')
 const answer = document.querySelector('#answer')
 
 buttonLeft.addEventListener('click', () => {
-  if (buttonLeft.value === answer.value) {
-    buttonLeft.style.background = 'green'
-  } else {
-    buttonLeft.style.background = 'red'
-  }
+  handleAnswerClick(buttonLeft)
 })
 
 buttonRight.addEventListener('click', () => {
-  if (buttonRight.value === answer.value) {
-    buttonRight.style.background = 'green'
-  } else {
-    buttonRight.style.background = 'red'
-  }
+  handleAnswerClick(buttonRight)
 })
+
+function handleAnswerClick(button) {
+  if (button.value === answer.value) {
+    button.style.background = 'green'
+  } else {
+    button.style.background = 'red'
+  }
+  buttonLeft.disabled = true
+  buttonRight.disabled = true
+}
