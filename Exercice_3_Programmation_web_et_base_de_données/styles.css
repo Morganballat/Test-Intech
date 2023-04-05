@@ -1,0 +1,29 @@
+body {
+  background-color: yellow;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.firstname {
+  text-transform: capitalize;
+}
+
+.lastname {
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item {
+  padding-right: 2rem;
+}
