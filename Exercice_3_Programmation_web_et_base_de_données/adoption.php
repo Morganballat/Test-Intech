@@ -1,4 +1,14 @@
-<script src="./index.js"></script>
-</body>
+<?php include './mon-header.php'; ?>
 
-</html>
+<form>
+  <label>Animaux</label>
+  <select>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+  </select>
+</form>
+
+<button type="submit">Valider</button>
+
+<?php include './footer.php'; ?>

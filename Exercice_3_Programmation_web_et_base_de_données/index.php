@@ -1,5 +1,7 @@
+<?php include './mon-header.php'; ?>
+
 <form>
-  <label>espèce</label>
+  <label>Espèces</label>
   <select>
     <option value=""></option>
     <option value=""></option>
@@ -7,8 +9,7 @@
   </select>
 </form>
 
+<button type="submit">Valider</button>
 
-<script src="./index.js"></script>
-</body>
 
-</html>
+<?php include './footer.php'; ?>

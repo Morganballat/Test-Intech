@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelector("#darkMode").addEventListener("click",(()=>{const o=document.body;"black"===o.style.backgroundColor?(o.style.backgroundColor="yellow",o.style.color="black"):(o.style.backgroundColor="black",o.style.color="white")}))})();

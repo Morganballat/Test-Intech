@@ -1,3 +1,3 @@
-import darkMode from './darkMode'
+import { darkMode } from './darkMode'
 
-darkMode.init();
+darkMode()
