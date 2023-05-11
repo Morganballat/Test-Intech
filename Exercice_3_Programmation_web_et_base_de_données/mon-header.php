@@ -16,7 +16,7 @@
     <nav>
       <ul class="menu">
         <li class="menu-item"><a href="./index.php">espèces</a></li>
-        <li class="menu-item"><a href="./adoption">adoption</a></li>
+        <li class="menu-item"><a href="./adoption.php">adoption</a></li>
         <li class="menu-item"><a href=# id="darkMode">Dark Mode</li></a>
       </ul>
     </nav>

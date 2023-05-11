@@ -3,9 +3,10 @@
 <form>
   <label>Espèces</label>
   <select>
-    <option value=""></option>
-    <option value=""></option>
-    <option value=""></option>
+    <option value="">Sélectionner une espèce</option>
+    <option value="chat">chat</option>
+    <option value="chien">chien</option>
+    <option value="lion">lion</option>
   </select>
 </form>
 
